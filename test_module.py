@@ -280,7 +280,7 @@ class sa_layer(nn.Module):
         return out
 
 
-# 这里定义网络
+
 class ConvolutvionAutoEncoder(nn.Module):
     def __init__(self, pad=1, groups=1):
         super(ConvolutvionAutoEncoder, self).__init__()
